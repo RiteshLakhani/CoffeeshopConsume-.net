@@ -1,0 +1,74 @@
+﻿@model DataTable
+@using System.Data
+
+<main id="main" class="main">
+    <div class="text-center mb-4">
+        <h2 style="font-weight: bold;">Country</h2>
+    </div>
+
+    <div class="text-end mb-3">
+        <a asp-controller="Country" asp-action="CountryAddEdit" class="btn btn-primary d-inline-block me-2">
+            Add Country
+        </a>
+        <a asp-controller="Country" asp-action="ExportToExcel" class="btn btn-primary d-inline-block">
+            Excel Export
+        </a>
+    </div>
+
+    <h6 class="text-danger">@TempData["ErrorMessage"]</h6>
+
+    <div class="mb-3">
+        <input type="text" class="form-control" id="countrySearch" placeholder="Search Any">
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered" id="countryTable">
+            <thead>
+                <tr>
+                    <th scope="col">Country Name</th>
+                    <th scope="col">Country Code</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (DataRow dataRow in Model.Rows)
+                {
+                    <tr>
+                        <td>@dataRow["CountryName"]</td>
+                        <td>@dataRow["CountryCode"]</td>
+                        <td>
+                            <form method="post" asp-controller="Country" asp-action="CountryDelete" onsubmit="return confirmDelete()">
+                                <input type="hidden" name="CountryID" value="@dataRow["CountryID"]" />
+                                <button type="submit" class="btn btn-outline-danger btn-xs">
+                                    <i class="bi bi-x"></i>
+                                </button>
+                            </form>
+                            <a class="btn btn-outline-success btn-xs" asp-controller="Country" asp-action="CountryAddEdit" asp-route-CountryID="@dataRow["CountryID"]">
+                                <i class="bi bi-pencil-fill"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<script>
+    function confirmDelete() {
+        return confirm("Are you sure you want to delete this record from Country-table?");
+    }
+</script>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#countrySearch").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#countryTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "State Add/Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model NiceAdmin.Models.StateModel
+
+<main id="main" class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>State Add/Edit</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">State Add/Edit</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h4 class="text-success">@TempData["StateInsertMessage"]</h4>
+                        <form class="form-horizontal" role="form" method="post" asp-controller="State" asp-action="SaveState">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            @Html.HiddenFor(x => x.StateID)
+
+                            <div class="form-group">
+                                <label for="CountryID" class="col-md-3 control-label"><span class="text-danger">*</span>Country Name</label>
+                                <div class="col-md-9">
+                                    <select id="CountryID"
+                                            name="CountryID"
+                                            class="form-control"
+                                            asp-for="CountryID">
+                                        <option value="">Select Country</option>
+                                        @foreach (var country in ViewBag.CountryList)
+                                        {
+                                                <option value="@country.CountryID">
+                                                @country.CountryName
+                                                </option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="CountryID" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="StateName" class="col-md-3 control-label"><span class="text-danger">*</span>State Name</label>
+                                <div class="col-md-9">
+                                    <input type="text"
+                                           id="StateName"
+                                           name="StateName"
+                                           class="form-control"
+                                           asp-for="StateName"
+                                           placeholder="Enter State Name" />
+                                    <span asp-validation-for="StateName" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="StateCode" class="col-md-3 control-label"><span class="text-danger">*</span>State Code</label>
+                                <div class="col-md-9">
+                                    <input type="text"
+                                           id="StateCode"
+                                           name="StateCode"
+                                           class="form-control"
+                                           asp-for="StateCode"
+                                           placeholder="Enter State Code" />
+                                    <span asp-validation-for="StateCode" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-3 col-md-9">
+                                    <input type="submit" class="btn btn-success" value="Save" />
+                                    <a class="btn btn-default"
+                                       asp-controller="State"
+                                       asp-action="Index">Cancel</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+@section Scripts {
+        <script>
+            $(document).ready(function () {
+                $("#CountryID").change(function () {
+                    var countryId = $(this).val();
+                    if (countryId) {
+                        // Optional: Additional dynamic updates for states based on CountryID
+                        console.log("Country selected with ID: " + countryId);
+                    }
+                });
+            });
+        </script>
+}

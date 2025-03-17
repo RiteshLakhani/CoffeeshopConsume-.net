@@ -1,0 +1,72 @@
+﻿@model DataTable
+@using System.Data
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<main id="main" class="main">
+    <div class="text-center mb-4">
+        <h2 style="font-weight: bold;">Product</h2>
+    </div>
+
+    <div class="text-end mb-3">
+        <a asp-controller="Product" asp-action="ProductForm" class="btn btn-primary d-inline-block me-2">
+            Add Product
+        </a>
+        <a asp-controller="Product" asp-action="ExportToExcel" class="btn btn-primary d-inline-block">
+            Excel Export
+        </a>
+    </div>
+
+    <h6 class="text-success">@TempData["SuccessMessage"]</h6>
+    <h6 class="text-danger">@TempData["ErrorMessage"]</h6>
+
+    <div class="table-responsive">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Product Name</th>
+                <th scope="col">ProductCode</th>
+                <th scope="col">Product Price</th>
+                <th scope="col">Description</th>
+                <th scope="col">UserID</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow dataRow in Model.Rows)
+            {
+                <tr>
+                    <td>@dataRow["ProductName"]</td>
+                    <td>@dataRow["ProductCode"]</td>
+                    <td>@dataRow["ProductPrice"]</td>
+                    <td>@dataRow["Description"]</td>
+                    <td>@dataRow["UserName"]</td>
+                    <td>
+                        <form method="post" asp-controller="Product" asp-action="ProductDelete">
+                            <input type="hidden" name="ProductID" value="@dataRow["ProductID"]" />
+                            <button type="submit" class="btn btn-outline-danger btn-xs">
+                                <i class="bi bi-x"></i>
+                            </button>
+                        </form>
+                        <!-- Edit button -->
+                        <a class="btn btn-outline-success btn-xs" asp-controller="Product" asp-action="ProductForm" asp-route-ProductID="@dataRow["ProductID"]">
+                            <i class="bi bi-pencil-fill"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+</main>
+
+<script>
+    function confirmDelete()
+    {
+        return confirm("Are you Sure! You want to Delete this record from Product-table?")
+    }
+</script>

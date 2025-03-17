@@ -1,0 +1,219 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NiceAdmin
+build_property.RootNamespace = NiceAdmin
+build_property.ProjectDir = F:\Sem-5\.Net\PROJECT-ASSIGNMENT\ADMIN Pannel\NiceAdmin\NiceAdmin\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Sem-5\.Net\PROJECT-ASSIGNMENT\ADMIN Pannel\NiceAdmin\NiceAdmin
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/BlankPage/BlankPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxhbmtQYWdlXEJsYW5rUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Charts/ApexCharts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRzXEFwZXhDaGFydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Charts/Chart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRzXENoYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Charts/ECharts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRzXEVDaGFydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Coffee/Bills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlXEJpbGxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Coffee/Customer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlXEN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Coffee/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlXE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Coffee/OrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlXE9yZGVyRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Coffee/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlXFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Coffee/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlXFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Accordion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xBY2NvcmRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Alerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xBbGVydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Badges.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xCYWRnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Breadcrumbs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xCcmVhZGNydW1icy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Buttons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xCdXR0b25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Cards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xDYXJkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Carousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xDYXJvdXNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Listgroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xMaXN0Z3JvdXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Modal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Pagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xQYWdpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Progress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xQcm9ncmVzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Spinners.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xTcGlubmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Tabs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xUYWJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Components/Tooltips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xUb29sdGlwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Contacts/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcQ29udGFjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Error404/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3I0MDRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/FAQ/FAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRkFRXEZBUS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Form/FormDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtRGVwYXJ0bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Form/FormEditiors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtRWRpdGlvcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Form/FormElements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtRWxlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Form/FormEmployeeProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtRW1wbG95ZWVQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Form/FormEmployees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtRW1wbG95ZWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Form/FormLayouts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtTGF5b3V0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Form/FormProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtUHJvamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Form/FormValidation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtVmFsaWRhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Icons/BootStrapIcons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWNvbnNcQm9vdFN0cmFwSWNvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Icons/Boxicons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWNvbnNcQm94aWNvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Icons/RemixIcons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWNvbnNcUmVtaXhJY29ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Profile/Profiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Register/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Tables/Datatables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVzXERhdGF0YWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Tables/Generaltables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVzXEdlbmVyYWx0YWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Sem-5/.Net/PROJECT-ASSIGNMENT/ADMIN Pannel/NiceAdmin/NiceAdmin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vitc8zpf18

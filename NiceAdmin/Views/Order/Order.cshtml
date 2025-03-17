@@ -1,0 +1,68 @@
+﻿@model DataTable
+@using System.Data
+
+<main id="main" class="main">
+    <div class="text-center mb-4">
+        <h2 style="font-weight: bold;">Orders</h2>
+    </div>
+
+    <div class="text-end mb-3">
+        <a asp-controller="Order" asp-action="OrderForm" class="btn btn-primary d-inline-block me-2">
+            Add Order
+        </a>
+
+        <a asp-controller="Order" asp-action="ExportToExcel" class="btn btn-primary d-inline-block">
+            Excel Export
+        </a>
+    </div>
+    <h6 class="text-success">@TempData["SuccessMessage"]</h6>
+    <h6 class="text-danger">@TempData["ErrorMessage"]</h6>
+    <div class="table-responsive">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Order Code</th>
+                <th scope="col">Order Date</th>
+                <th scope="col">CustomerID</th>
+                <th scope="col">Payment Mode</th>
+                <th scope="col">Total Amount</th>
+                <th scope="col">Shipping Address</th>
+                <th scope="col">UserID</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow dataRow in Model.Rows)
+            {
+                <tr>
+                    <td>@dataRow["OrderCode"]</td>
+                    <td>@dataRow["OrderDate"]</td>
+                    <td>@dataRow["CustomerName"]</td>
+                    <td>@dataRow["PaymentMode"]</td>
+                    <td>@string.Format("{0:F2}", dataRow["TotalAmount"])</td>
+                    <td>@dataRow["ShippingAddress"]</td>
+                    <td>@dataRow["UserName"]</td>
+                    <td>
+                        <form method="post" asp-controller="Order" asp-action="OrderDelete" onsubmit="return confirmDelete()">
+                            <input type="hidden" name="OrderID" value="@dataRow["OrderID"]"/>
+                            <button type="submit" class="btn btn-outline-danger btn-xs">
+                                <i class="bi bi-x"></i>
+                            </button>
+                        </form>
+                        <a class="btn btn-outline-success btn-xs" asp-controller="Order" asp-action="OrderForm" asp-route-OrderID="@dataRow["OrderID"]">
+                            <i class="bi bi-pencil-fill"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+</main>
+
+<script>
+    function confirmDelete()
+    {
+        return confirm("Are you Sure! You want to Delete this record from Order-table ?");
+    }
+</script>

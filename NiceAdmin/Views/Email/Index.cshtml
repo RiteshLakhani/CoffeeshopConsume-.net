@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Send Email";
+}
+
+<main id="main" class="main">
+    <h2>@ViewData["Title"]</h2>
+
+    <form asp-controller="Email" asp-action="Index" method="post">
+        <button type="submit" class="btn btn-primary">Send Email</button>
+    </form>
+</main>

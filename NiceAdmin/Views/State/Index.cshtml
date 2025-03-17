@@ -1,0 +1,73 @@
+﻿@model DataTable
+@using System.Data;
+
+<main id="main" class="main">
+    <div class="text-center mb-4">
+        <h2 style="font-weight: bold;">State</h2>
+    </div>
+
+    <div class="text-end mb-3">
+        <a asp-controller="State" asp-action="StateAddEdit" class="btn btn-primary d-inline-block me-2">
+            Add State
+        </a>
+        <a asp-controller="State" asp-action="ExportToExcel" class="btn btn-primary d-inline-block">
+            Excel Export
+        </a>
+    </div>
+
+    <h6 class="text-danger">@TempData["ErrorMessage"]</h6>
+
+    <div class="mb-3">
+        <input type="text" class="form-control" id="stateSearch" placeholder="Search Any">
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered" id="stateTable">
+            <thead>
+                <tr>
+                    <th scope="col">State Name</th>
+                    <th scope="col">State Code</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (DataRow row in Model.Rows)
+                {
+                    <tr>
+                        <td>@row["StateName"]</td>
+                        <td>@row["StateCode"]</td>
+                        <td>
+                            <form method="post" asp-controller="State" asp-action="StateDelete" asp-route-StateID="@row["StateID"]" style="display:inline;" onsubmit="return confirmDelete()">
+                                <button type="submit" class="btn btn-outline-danger btn-xs">
+                                    <i class="bi bi-x"></i>
+                                </button>
+                            </form>
+                            <a class="btn btn-outline-success btn-xs" asp-controller="State" asp-action="StateAddEdit" asp-route-StateID="@row["StateID"]">
+                                <i class="bi bi-pencil-fill"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<script>
+    function confirmDelete() {
+        return confirm("Are you sure you want to delete this state?");
+    }
+</script>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#stateSearch").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#stateTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+    </script>
+}
